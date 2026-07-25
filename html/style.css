@@ -37,9 +37,9 @@ a{
     color: #000;
     font-style: italic;
 }
-a:hover{
-    color: #fff;
-}
 a:visited{
     color:#43028c
+}
+a:hover{
+    color: #fff;
 }
