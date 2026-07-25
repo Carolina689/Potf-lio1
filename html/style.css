@@ -17,19 +17,17 @@ ul{
     list-style: none;
     display: flex; 
     flex-flow: row wrap;  
-    justify-content: space-around;
-    border-top: 2px solid #378bf8;
-    border-bottom: 2px solid #378bf8;
+    justify-content: center;
 }
 li{
     margin: none;
-    padding: 5px 73px 5px 73px;
-    border-left: 2px solid #378bf8;
-    border-right: 2px solid #378bf8;
+    padding: 5px 40px 5px 40px;
+    border: 2px solid #378bf8;
+    
 }
 li:nth-child(2){
-    border-left: none;
     border-right: none;
+    border-left: none;
 }
 a{
     font-size: 20px;
