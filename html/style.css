@@ -13,19 +13,19 @@
     height: 100px;
     background: linear-gradient(to bottom, #ffffff, #6996c2);
 }
-ul{
+#menu{
     list-style: none;
     display: flex; 
     flex-flow: row wrap;  
     justify-content: center;
 }
-li{
+#menu li{
     margin: none;
     padding: 5px 40px 5px 40px;
     border: 2px solid #378bf8;
     
 }
-li:nth-child(2){
+#menu li:nth-child(2){
     border-right: none;
     border-left: none;
 }
@@ -50,10 +50,11 @@ input{
     color:#000;
     background: #ffffff;
     border: 2px solid #6996c2;
+    border-right: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 25px;
+    width: 250px;
+    height: 30px;
     text-align: center;
 }
 input::placeholder{
@@ -63,4 +64,28 @@ input::placeholder{
 button{
     background: #e72d0c;
     font-family:'Birthstone Bounce', cursive;
+    height:34px;
+    width: 80px;
+    border:2px solid #6996c2;
+    border-left: none;
+}
+#lista{
+    margin-top: 10px;
+    gap:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#lista li{
+    list-style: none;
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #378bf8;
+}
+#lista li:nth-child(2){
+    border-top: none;
+    border-bottom: none;
 }
