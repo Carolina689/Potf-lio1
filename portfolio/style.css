@@ -41,7 +41,7 @@ a:visited{
 a:hover{
     color: #fff;
 }
-form{
+#form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ input::placeholder{
     color:rgb(94, 131, 234);
     font-family:'Comic Relief', cursive; 
 }
-button{
+#submit{
     background: #e72d0c;
     font-family:'Birthstone Bounce', cursive;
     height:34px;
@@ -78,8 +78,11 @@ button{
     flex-direction: column;
 }
 #lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    height: 20px;
+    height: 25px;
     width: 250px;
     text-align: center;
     background: #ffffff;
@@ -88,4 +91,10 @@ button{
 #lista li:nth-child(2){
     border-top: none;
     border-bottom: none;
+}
+button{
+    background: #fdfafa;
+    border: none;
+    border-left: 2px solid #378bf8;
+    cursor: pointer;
 }
