@@ -4,6 +4,11 @@
     padding: 0;
     background: #6996c2;
 }
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
 #header{
     font-size: 40px;
     font-family: comic sans ms;
