@@ -3,10 +3,11 @@
     background: #6996c2;
 }
 .p1{
-    background: #ffffff;
+    background-image:url(images/fundo_p1.png);
+    background-size: cover;
 }
 .p2{
-    background: #6996c2;
+    background-color: #6996c2;
 }
 
 @media (max-width: 768px) {
@@ -23,6 +24,22 @@
     justify-content: center;
     height: 100px;
     background: linear-gradient(to bottom, #ffffff, #6996c2);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#headerlist{
+    font-size: 40px;
+    font-family: comic sans ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 #menu{
     list-style: none;
