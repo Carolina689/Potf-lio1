@@ -1,13 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .index{
     background: #6996c2;
 }
-.p1{
-    background-image:url(images/fundo_p1.png);
-    background-size: cover;
-}
 .p2{
-    background-color: #6996c2;
+    background: #6996c2;
 }
 
 @media (max-width: 768px) {
@@ -34,12 +34,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 120px;
+    background-color: #fffaf0;
 }
 body{
     margin: 0;
     padding: 0;
     border: none;
+}
+#bp1{
+    min-height: 100vh;
+    background-color: #FFFAF0;
+    background-image:repeating-linear-gradient(
+    to bottom,
+    rgba(47,79,79,0.4) 0px,
+    rgba(47,79,79,0.4) 2px,
+    transparent 1px,
+    transparent 30.5px
+  );
 }
 #menu{
     list-style: none;
@@ -76,7 +88,7 @@ a:hover{
 }
 input{
     color:#000;
-    background: #ffffff;
+    background: #FFFAF0;
     border: 2px solid #6996c2;
     border-right: none;
     outline: none;
@@ -92,7 +104,7 @@ input::placeholder{
 #submit{
     background: #e72d0c;
     font-family:'Birthstone Bounce', cursive;
-    height:34px;
+    height: 30px;
     width: 80px;
     border:2px solid #6996c2;
     border-left: none;
@@ -113,7 +125,7 @@ input::placeholder{
     height: 25px;
     width: 250px;
     text-align: center;
-    background: #ffffff;
+    background: #FFFAF0;
     border: 2px solid #378bf8;
 }
 #lista li:nth-child(2){
