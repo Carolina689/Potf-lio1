@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.index{
+    background: #6996c2;
+}
+.p2{
+    background: #6996c2;
+}
+
+@media (max-width: 768px) {
+  #header {
+    font-size: 24px;
+    height: 70px;
+  }
+}
+#header{
+    font-size: 40px;
+    font-family: comic sans ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(to bottom, #ffffff, #6996c2);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#headerlist{
+    font-size: 40px;
+    font-family: comic sans ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #fffaf0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#bp1{
+    min-height: 100vh;
+    background-color: #FFFAF0;
+    background-image:repeating-linear-gradient(
+    to bottom,
+    rgba(47,79,79,0.4) 0px,
+    rgba(47,79,79,0.4) 2px,
+    transparent 1px,
+    transparent 30.5px
+  );
+}
+#menu{
+    list-style: none;
+    display: flex; 
+    flex-flow: row wrap;  
+    justify-content: center;
+}
+#menu li{
+    margin: none;
+    padding: 5px 40px 5px 40px;
+    border: 2px solid #378bf8;
+    
+}
+#menu li:nth-child(2){
+    border-right: none;
+    border-left: none;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+a:visited{
+    color:#43028c
+}
+a:hover{
+    color: #fff;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    color:#000;
+    background: #FFFAF0;
+    border: 2px solid #6996c2;
+    border-right: none;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+input::placeholder{
+    color:rgb(94, 131, 234);
+    font-family:'Comic Relief', cursive; 
+}
+#submit{
+    background: #e72d0c;
+    font-family:'Birthstone Bounce', cursive;
+    height: 30px;
+    width: 80px;
+    border:2px solid #6996c2;
+    border-left: none;
+}
+#lista{
+    margin-top: 10px;
+    gap:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    background: #FFFAF0;
+    border: 2px solid #378bf8;
+}
+#lista li:nth-child(2){
+    border-top: none;
+    border-bottom: none;
+}
+button{
+    background: #fdfafa;
+    border: none;
+    border-left: 2px solid #378bf8;
+    cursor: pointer;
+}
